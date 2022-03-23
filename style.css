@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #43802d 27.26%, #2b541d 96.03%);
+  font-family: "Fredoka", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h1:hover {
+  cursor: pointer;
+  transform: translate(-9px, -9px);
+  text-shadow: 0.5px 0.5px 0 #777980, 1px 1px 0 #777980, 1.5px 1.5px 0 #777980,
+    2px 2px 0 #777980, 2.5px 2.5px 0 #777980, 3px 3px 0 #777980,
+    3.5px 3.5px 0 #777980, 4px 4px 0 #777980, 4.5px 4.5px 0 #777980,
+    5px 5px 0 #777980, 5.5px 5.5px 0 #777980, 6px 6px 0 #777980,
+    6.5px 6.5px 0 #777980, 7px 7px 0 #777980, 7.5px 7.5px 0 #777980,
+    8px 8px 0 #777980, 8.5px 8.5px 0 #777980, 9px 9px 0 #777980;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(238.65deg, #1e7909 27.49%, #10c328 83.19%);
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos img {
+  margin: 0 auto;
+  box-shadow: 16px 17px 23px -16px rgba(255, 255, 255, 1);
+}
+
+.center {
+  text-align: center !important;
+  align-content: center !important;
+}
+
+.section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(238.65deg, #1e7909 27.49%, #10c328 83.19%);
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:hover {
+  color: #000;
+  background: #ccc;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 3, 7, 1) 0%,
+    rgba(164, 21, 21, 1) 42%,
+    rgba(215, 17, 17, 1) 100%
+  );
+}
+
+.tema button {
+  align-self: flex-end;
+  font-sie: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.dark {
+  background: linear-gradient(
+    90deg,
+    rgba(13, 27, 12, 1) 0%,
+    rgba(34, 56, 21, 1) 41%,
+    rgba(44, 91, 20, 1) 100%
+  );
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+
+#code {
+  padding: 32px;
+}
+
+footer {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 42%;
+  padding-right: 42%;
+}
